@@ -158,7 +158,7 @@ class CampsiteInfo extends Component {
                         <Input
                             placeholder='comment'
                             leftIcon={{type:'font-awesome', name:'comment-o'}}
-                            leftIconContainerStyle
+                            leftIconContainerStyle={{paddingRight:10}}
                             onChangeText={text => this.setState({text: text})}
                             value={this.state.text}
 
